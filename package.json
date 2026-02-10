@@ -1,0 +1,22 @@
+{
+  "name": "qa-test-web-app",
+  "version": "1.0.0",
+  "description": "Playwright automation suite for QA Test Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:ux": "playwright test tests/ux",
+    "test:smoke": "playwright test -g \"@smoke\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.0"
+  }
+}
