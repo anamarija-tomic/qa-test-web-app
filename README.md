@@ -104,6 +104,13 @@ The test suite runs automatically on every push and pull request via GitHub Acti
 
 ---
 
+## Documentation
+
+- Test Documentation (PDF): `docs/QA_Test_Web_Application_Test_Documentation.pdf`
+- Repository: https://github.com/anamarija-tomic/qa-test-web-app
+
+---
+
 ## HTML Report (Local)
 
 Generate/open the report:
