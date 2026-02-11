@@ -1,4 +1,3 @@
-// pages/DashboardPage.js
 import { expect } from "@playwright/test";
 import { parseLastLoginToDate } from "../utils/dateParsers";
 

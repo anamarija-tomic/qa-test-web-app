@@ -1,4 +1,3 @@
-// pages/LoginPage.js
 import { expect } from "@playwright/test";
 
 export class LoginPage {
@@ -51,7 +50,7 @@ export class LoginPage {
   }
 
   async expectNotRedirectedToDashboard() {
-    // Workaround due to missing submit-level failure feedback (BUG-026) 
+    // Workaround due to missing submit-level failure feedback (BUG-026)
     await this.page.waitForTimeout(500);
     await expect(this.page).not.toHaveURL(/dashboard\.html/);
   }

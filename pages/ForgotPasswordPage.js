@@ -1,4 +1,3 @@
-// pages/ForgotPasswordPage.js
 import { expect } from "@playwright/test";
 
 export class ForgotPasswordPage {

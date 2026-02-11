@@ -1,5 +1,3 @@
-// utils/storageHelpers.js
-
 /**
  * Clear both sessionStorage and localStorage for the current origin.
  * This is critical for tests affected by BUG-001 (storage rehydration / "zombie user").
@@ -30,18 +28,6 @@ export async function getStoredCurrentUser(page, storageType) {
       return null;
     }
   }, storageType);
-}
-
-/**
- * Convenience helper: returns both session and local stored users.
- */
-export async function getAuthStorageSnapshot(page) {
-  const [sessionUser, localUser] = await Promise.all([
-    getStoredCurrentUser(page, "session"),
-    getStoredCurrentUser(page, "local"),
-  ]);
-
-  return { sessionUser, localUser };
 }
 
 /**

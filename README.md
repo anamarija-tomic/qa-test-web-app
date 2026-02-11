@@ -99,10 +99,12 @@ The test suite runs automatically on every push and pull request via GitHub Acti
 - Workflow file: `.github/workflows/playwright.yml`
 - Where to see results: GitHub → **Actions** tab → select the latest run
 - The Playwright HTML report is uploaded as an artifact (download it from the workflow run page).
+- Note: artifacts are kept for a limited retention period (14 days).
+- In the run page, scroll to **Artifacts** → download **playwright-report**.
 
 ---
 
-## Viewing the HTML Report
+## HTML Report (Local)
 
 Generate/open the report:
 

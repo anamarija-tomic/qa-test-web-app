@@ -1,4 +1,3 @@
-// utils/authHelpers.js
 import { RegisterPage } from "../pages/RegisterPage";
 import { buildValidRegistrationData } from "./testData";
 

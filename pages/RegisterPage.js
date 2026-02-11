@@ -1,4 +1,3 @@
-// pages/RegisterPage.js
 import { expect } from "@playwright/test";
 
 export class RegisterPage {

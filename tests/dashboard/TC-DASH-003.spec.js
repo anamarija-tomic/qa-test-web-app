@@ -1,4 +1,3 @@
-// tests/dashboard/TC-DASH-003.spec.js
 import { test, expect } from "@playwright/test";
 import { LoginPage } from "../../pages/LoginPage";
 import { DashboardPage } from "../../pages/DashboardPage";
